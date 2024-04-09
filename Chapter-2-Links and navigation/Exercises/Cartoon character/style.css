@@ -1,0 +1,82 @@
+/*nav is used to style nevigation bar in css*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: -5px 0 0; /* Adjust the top margin as needed */
+  padding: 1%;
+  background: black;
+}
+/*ul is used to style urdered list*/
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li a {
+  margin-right: 80px;
+  font-size: 19px;
+  color: aliceblue;
+}
+/*This code is used to style div class*/
+.About {
+  background-color: blue;
+  margin: -1.1%;
+  padding: 2%;
+}
+/*To style the div class image*/
+.About img {
+  float: right; /* Its hleps float the image to the right */
+  margin-right: 20px; /* Adjust spacing between image and text */
+  max-width: 150px; /* To set the width of the image */
+}
+
+.Design {
+  background-color: orange; /*background color to orange */
+  margin: 1%; 
+  padding: 2%; 
+  width: 100%;
+  margin-left: -1%; 
+}
+.Design img{
+  float: left; /* Float the image to the right */
+  margin-left: 20px; /* Adjust spacing between image and text */
+  max-width: 150px; /* Set the width of the image */
+  padding: 1%;
+  
+}
+.Ranks {
+  background-color: greenyellow; 
+  margin: -1%; 
+  padding: 2%; 
+  width: 100%;
+  margin-left: -1%; 
+}
+.Ranks img{
+  float: right; 
+  margin-right: 20px; 
+  max-width: 150px; 
+}
+/*its help to style button tag*/
+.button-link {
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 2%;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.button-link:hover {
+  background-color: #ca1e18;
+}
+
+
+
+
+
+
+
+
