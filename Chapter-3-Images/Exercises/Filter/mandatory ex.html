@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image filter</h1>
+<div class="flex">
+    <!--We use img tag to upload image to a website-->
+    <img src="cat.jpg">
+    <img src="joker.webp">
+    <img src="tiger.jpg">
+</div>
+<!--assigning class to a div make styling more easy-->
+    <div class="brightness">
+<!--Improve accessibility by providing good structure for images or video-->
+       <figure>
+            <img src="cat.jpg" alt="Cat image" width="300" height="300" title="Cat brightness">
+            <figcaption>Creative Commons License: Attribution 2.0 Generic (CC BY 2.0)</figcaption>
+        </figure>
+    </div>
+
+    <div class="blur">
+        <figure>
+            <img src="joker.webp" alt="joker image" width="300" height="300" title="joker blur">
+            <!--We can use figcaption or figure they both works same-->
+            <figcaption>Creative Commons License: Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)</figcaption>
+        </figure>
+    </div>
+
+    <div class="shadow">
+        <figure>
+            <img src="tiger.jpg" alt="tiger image" width="300" height="300" title="Tige shadow">
+            <figcaption>Creative Commons License: Attribution-NoDerivs 2.0 Generic (CC BY-ND 2.0)</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
