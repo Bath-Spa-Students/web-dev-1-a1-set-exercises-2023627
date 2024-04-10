@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;/*make image align at the center*/
+    height: 100vh; /* set the heigt */
+    margin: 0; /* Remove default margin */
+}
